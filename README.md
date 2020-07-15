@@ -1,3 +1,5 @@
+# coexp-diamond
+
 ### Introduction
 The coexp-diamond pipeline allows to reveal disease module networks from RNA sequencing data. The workflow consists of three main parts:
 1.   Co-expression network construction out of custom expression matrix. The analysis is run with a [CoExpNets R package](https://github.com/juanbot/CoExpNets).
@@ -23,7 +25,7 @@ A typical command to run the pipeline is following:
 ```bash
 ./coexp-diamond.R -i expression_matrix.txt -s seed_genes.txt -w ppi_network.txt
 ```
-#Output files:
+### Output files:
 The output directory will be located in the working directory with a default name coexp_diamond. Lists of genes grouped by CoExpNets module names are located in the output_diamond subdirectory.
 ```bash
 └── coexp_diamond
