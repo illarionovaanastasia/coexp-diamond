@@ -2,7 +2,7 @@
 The coexp-diamond pipeline allows to reveal disease module networks from RNA sequencing data. The workflow consists of three main parts:
 1.   Co-expression network construction out of custom expression matrix. The analysis is run with a [CoExpNets R package](https://github.com/juanbot/CoExpNets).
 2.   Co-expression to protein-protein interaction (PPI) network mapping.
-3.   Disease module identification within obtained PPI subnetworks, which is performed with a [DIAMOnD script](https://github.com/dinaghiassian/DIAMOnD). 
+3.   Disease module identification within obtained PPI subnetworks: performed with a [DIAMOnD script](https://github.com/dinaghiassian/DIAMOnD). 
 ![Screenshot](coexp_diamond.jpeg)
 ### Installation
 To run coexp-diamond pipeline the following R packages are required:
